@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <title>Star Wars 2</title>
+        <meta charset="utf-8">
+        <style type="text/css">
+            #sf-aside > div:nth-child(4) > ul > li:nth-of-type(2){
+                background-color: yellow;
+            }
+        </style>
+        <link rel="stylesheet" type="text/css" href="common.css">
+        <link rel="stylesheet" type="text/css" href="starwars.css">
+    </head>
+    <body>
+        <div class="header">
+            <!--1: 주 메뉴-->
+            <ul>
+                <li><a class="active" href="index.html">HOME</a></li>
+                <li><a href="#">MOVIE NEWS</a></li>
+                <li class="dropdown">
+                    <a class="dropbtn" href="#">MOVIE INFO</a>
+                    <!--2: 하위 메뉴-->
+                    <div class="dropdown_content">
+                        <a href="#">BOX OFFICE</a>
+                        <a href="#">REVIEW</a>
+                    </div>
+                </li>
+                <li class="dropdown">
+                    <a class="dropbtn" href="#">SF MOVIE</a>
+                    <div class="dropdown_content">
+                        <a href="starwars.html">STAR WARS</a>
+                        <a href="#">AILEN</a>
+                        <a href="#">STAR TREK</a>
+                    </div>
+                </li>
+                <li class="dropdown">
+                    <a class="dropbtn" href="#">LOGIN</a>
+                    <div class="dropdown_content" style="right: 8px;">
+                        <input type="text" id="username" placeholder="USER ID">
+                        <input type="password" placeholder="password">
+                        <a href="#" id="login">LOG IN</a>
+                        <hr>
+                        <a href="#" id="join">MEMBER JOIN</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="content">
+            <div id="title">
+                <h2>스타워즈 II<sup>클론의 습격</sup></h2>
+            </div>
+            <section id="sf-section">
+                
+            </section>
+            <aside id="sf-aside">
+                <input type="radio" id="Series" name="tab" checked>
+                <input type="radio" id="Gallery" name="tab">
+                <div class="tab_menu">
+                    <label for="Series">시리즈</label>
+                    <label for="Gallery">갤러리</label>
+                </div>
+                <div class="tab_item">
+                    <ul>
+                        <li class="item">
+                            <a href="starwars1.html">
+                                <div class="thumbnail">
+                                    <img src="img/Star_Wars_1.jpg" />
+                                </div>
+                                <div class="desc">
+                                    <span>스타워즈 에피소드 I</span>
+                                    <p>1999-5-19</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="item">
+                            <a href="starwars2.html">
+                                <div class="thumbnail">
+                                    <img src="img/Star_Wars_2.jpg" />
+                                </div>
+                                <div class="desc">
+                                    <span>스타워즈 에피소드 II</span>
+                                    <p>2002-5-16</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="item">
+                            <a href="#">
+                                <div class="thumbnail">
+                                    <img src="img/Star_Wars_3.jpg" />
+                                </div>
+                                <div class="desc">
+                                    <span>스타워즈 에피소드 III</span>
+                                    <p>2005-5-19</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="item">
+                            <a href="#">
+                                <div class="thumbnail">
+                                    <img src="img/Star_Wars_4.jpg" />
+                                </div>
+                                <div class="desc">
+                                    <span>스타워즈 에피소드 IV</span>
+                                    <p>1977-5-25</p>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="tab_item">
+                    <ul>
+                        <li class="item"><a href="#">비디오 클립</a></li>
+                        <li class="item"><a href="#">영화 포토</a></li>
+                        <li class="item"><a href="#">영화 음악</a></li>
+                        <li class="item"><a href="#">등장 인물</a></li>
+                        <li class="item"><a href="#">매니아 게시판</a></li>
+                    </ul>
+                </div>
+            </aside>
+        </div>
+        <div class="footer">
+            <!-- 7: 제작사 및 저작권 정보 -->
+            <address>주식회사 프리지아랩 / 경기도 용인시 기흥구 청덕동 499 용인 테크노밸리 777호</address>
+            <h4>
+                대표이사: 김도균 / 사업자 등록 번호: 123-45-67890 / 등록일자 2020년 1월 1일 / 편집인 김도균 /발행일자 2020년 1월 2일 <br>
+                <a href="mailto:kimdokyun@outlook.com">메일 보내기</a> /이 사이트의 모든 권리는 제작사에게 있습니다.
+            </h4>
+        </div>
+    </body>
+</html>
